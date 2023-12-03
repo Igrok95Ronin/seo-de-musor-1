@@ -46,10 +46,10 @@ body{
 $btnColorFixed : #000;
 
 @mixin h1Title {
-    color: #fff;
     text-align: center;
     font-weight: 700;
-    font-size: clamp(36px,5vw,50px);
+    font-size: clamp(36px,5vw,45px);
+    margin-bottom: 20px;
 }
 @mixin h2Title {
     text-align: center;
