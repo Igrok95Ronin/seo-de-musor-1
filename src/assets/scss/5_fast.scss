@@ -1,0 +1,28 @@
+.fast {
+    padding: 50px 0 0;
+}
+.fast__box {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+}
+.fast__left {
+    max-width: 100%;
+    max-height: 100%;
+}
+.fast__img {
+    width: 100%;
+    aspect-ratio: 1;
+}
+.fast__right {
+    padding: 0 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.fast__title {
+    @include h2Title;
+}
+.fast__txt {
+    line-height: 20px;
+}
