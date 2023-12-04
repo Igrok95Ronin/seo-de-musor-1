@@ -61,3 +61,44 @@
 .officeDecluttering__inner__imgStrar {
     width: 30px;
 }
+.officeDecluttering__telWrapper {
+    
+}
+.officeDecluttering__btn {
+    background-color: #534f3f;
+    padding: 25px 10px 10px 60px;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #fff;
+    margin: 10px 0;
+    span{
+        position: relative;
+        display: inline-block;
+        &::before{
+            content: '';
+            position: absolute;
+            background-image: url(../img/phone.png);
+            background-size: contain;
+            background-repeat: no-repeat;
+            width: 40px;
+            height: 40px;
+            top: 30%;
+            left: -50px;
+            transform: translateY(-50%);
+        }
+        &::after{
+            content: 'Jetzt anrufen';
+            position: absolute;
+            top: -20px;
+            left: 50%;
+            width: 100%;
+            text-align: center;
+            font-size: 14px;
+            transform: translateX(-50%);
+        }
+    }
+    &:hover {
+        color: #f6f3f0;
+    }
+}

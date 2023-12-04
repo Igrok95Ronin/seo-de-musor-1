@@ -1,0 +1,20 @@
+.cheapClearing {
+    padding: 50px 0 0;
+}
+.cheapClearing__box {
+}
+.cheapClearing__title {
+    @include h2Title;
+}
+.cheapClearing__txt {
+    line-height: 20px;
+}
+.cheapClearing__ul {
+    margin-top: 20px;
+    list-style: disc;
+    list-style-position: inside;
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
