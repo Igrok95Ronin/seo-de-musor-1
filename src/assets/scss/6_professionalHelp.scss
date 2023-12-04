@@ -1,0 +1,27 @@
+.professionalHelp {
+    padding: 50px 0 0;
+}
+.professionalHelp__box {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+}
+.professionalHelp__left {
+}
+.professionalHelp__img {
+    width: 100%;
+    aspect-ratio: 1.7;
+}
+.professionalHelp__right {
+    padding: 0 10px;
+}
+.professionalHelp__title {
+    @include h2Title;
+}
+.professionalHelp__txt {
+    line-height: 20px;
+    margin-bottom: 10px;
+}
+.professionalHelp__txt:last-child {
+    margin: 0;
+}
